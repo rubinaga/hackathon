@@ -1,0 +1,39 @@
+.rankingUsers {
+    height: 5.5rem;
+    width: 50vw;
+    max-width: 30rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(15px);
+    margin: 2rem 2rem;
+    border-radius: 77.3292px;
+}
+
+
+.image_style{
+    border-radius: 50%;
+}
+
+.users_info {
+    display: flex;
+    flex-direction: column;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24.7453px;
+    color: #FFFFFF;
+}
+
+.index_info {
+    color: white;
+    background: rgba(0, 0, 0, 0.15);
+    border: solid gray;
+    border-radius: 50%;
+    padding: 10px 15px
+}
+
+.para_info {
+    font-size: 28px;
+    margin: 5px;
+}

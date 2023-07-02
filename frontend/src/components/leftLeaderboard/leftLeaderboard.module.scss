@@ -1,0 +1,22 @@
+
+.page_style {
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    // background-color: rgb(189, 168, 168);
+    background-color: #1ac073;
+
+    max-height: 90vh;
+    overflow-y: hidden;
+}
+
+.leaderboard_style {
+    // height: 100vh;
+    margin: 0rem 8rem;
+    // flex-wrap: wrap;
+    
+}
+
+.logo_style{
+    padding: 2rem 12rem 0rem;
+}

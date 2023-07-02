@@ -1,0 +1,113 @@
+.footer {
+    width: 100vw;
+    height: 20vh;
+    left: 0px;
+    background: #1AC073;
+}
+
+.subFooter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px;
+    gap: 24px;
+}
+
+.footer_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 0px;
+    gap: 291px;
+    width: 1180.15px;
+    height: 34px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer_brand_name {
+    width: 118px;
+    height: 20px;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.footer_main_menu {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 412px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer_main_menu_icons {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 13px;
+    width: 68.15px;
+    height: 26px;
+    flex: none;
+    order: 2;
+    flex-grow: 0;
+}
+
+.menu_text {
+    width: 50px;
+    height: 20px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.copyright_frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+    width: 1180.5px;
+    height: 36px;
+    flex: none;
+    order: 1;
+    border-top: 1px solid white;
+    flex-grow: 0;
+}
+
+.copyright_text {
+    width: 153px;
+    height: 20px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    flex: none;
+    order: 1;
+    margin-top: 10px;
+    flex-grow: 0;
+}

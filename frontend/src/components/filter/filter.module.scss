@@ -1,0 +1,17 @@
+.filter {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 19px;
+    width: 251px;
+    height: 46px;
+    border: 1px solid #929292;
+    border-radius: 10px;
+    margin-top: 40px;
+    outline: none;
+    cursor: pointer;
+}
+
+.filter_option {}

@@ -1,0 +1,50 @@
+.allergiesWrapper {
+  overflow-y: scroll;
+  -ms-overflow-style: none; /* IE and Edge */
+  scrollbar-width: none; /* Firefox */
+  background-color: rgb(110, 110, 110, 0.6);
+  padding: 1rem 4rem 0rem;
+  border-radius: 30px;
+  min-width: 40%;
+  height: 65%;
+  margin-bottom: 2rem;
+}
+
+.allergiesWrapper::-webkit-scrollbar {
+  display: none;
+}
+
+.pageWrapper {
+  background-image: url('../../assets/icons/background-icon.svg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  //   justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  height: 90vh;
+}
+
+.text {
+  margin: 2rem 0rem 2rem;
+  color: white;
+  font-size: 36px;
+}
+
+.searchInput {
+  height: 3rem;
+  width: 50%;
+  background: transparent;
+  border: solid gray 1px;
+  border-radius: 20px;
+  text-indent: 1rem;
+  font-size: 22px;
+  color: white;
+}
+
+.searchInput::placeholder {
+  color: white;
+  font-size: 22px;
+}

@@ -1,0 +1,97 @@
+.seller_body {
+    height: 70vh;
+    background: #F7F8FA;
+}
+
+.seller_main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    gap: 10vw;
+    padding-top: 5vh;
+}
+
+.seller_form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    padding: 0px;
+    gap: 32px;
+    width: 616px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    margin-top: 100px;
+}
+
+.seller_main_text {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 5px;
+    width: 338px;
+    height: 73px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.seller_text1 {
+    width: 300px;
+    height: 48px;
+    font-family: 'Gilroy-Medium';
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: -0.012em;
+    color: #101115;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.seller_text2 {
+    width: 338px;
+    height: 20px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #1B1C21;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.seller_form_inputs {
+    width: 616px;
+    height: 298px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.form_input_row {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+    height: 58px;
+    left: 0px;
+    top: 0px;
+}
+
+.seller_image {
+    width: 503px;
+    height: 402px;
+    order: 1;
+    flex-grow: 0;
+    display: flex;
+}

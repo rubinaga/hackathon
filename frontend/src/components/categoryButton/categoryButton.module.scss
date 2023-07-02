@@ -1,0 +1,42 @@
+.FirstCategoryButton {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px;
+    cursor: pointer;
+    width: 100px;
+    height: 46px;
+    background: yellowgreen;
+    border: 1px solid yellowgreen;
+    border-radius: 10px 0px 0px 10px;
+}
+
+.MiddleCategoryButton {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 13px 40px;
+    cursor: pointer;
+    width: 130px;
+    height: 46px;
+    border: 1px solid yellowgreen;
+    border-radius: 0px;
+}
+
+.LastCategoryButton {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    cursor: pointer;
+    align-items: center;
+    padding: 13px 40px;
+    width: 137px;
+    height: 46px;
+    border: 1px solid yellowgreen;
+    border-radius: 0px 10px 10px 0px;
+}

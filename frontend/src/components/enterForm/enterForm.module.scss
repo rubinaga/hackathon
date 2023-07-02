@@ -1,0 +1,115 @@
+.outsideForm {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  height: 100%;
+  background: white;
+  justify-content: between;
+  align-items: center;
+  margin: 150px 0px 0px;
+}
+
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  width: 80%;
+}
+
+.loginTextSize {
+  margin-left: 30px;
+  font-size: 32px;
+  font-weight: 600;
+  color: black;
+}
+
+.inputStyles {
+  margin-bottom: 25px;
+  height: 50px;
+  border: solid #aeaeae 1px;
+  border-radius: 15px;
+  font-size: 20px;
+  text-indent: 25px;
+}
+
+.inputStyles::placeholder {
+  color: #aeaeae;
+  font-size: 20px;
+}
+
+.brand_name {
+  font-family: 'Squada One';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 72px;
+  letter-spacing: -0.012em;
+  color: #1ac073;
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.rememberAndForgot {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rememberCheckbox {
+  scale: 1.2;
+  margin-top: 5px;
+  margin-right: 12px;
+}
+
+.rememberText {
+  display: flex;
+  color: #9a9797;
+  font-size: 22px;
+}
+
+.rememberMe {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.forgotPassword {
+  color: #9a9797;
+  font-size: 22px;
+}
+
+.lines {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+}
+
+.lineText {
+  padding: 0 20px 0;
+}
+
+.allLoginForms {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.individualLoginForm1 {
+  margin: 0px 30px 0px;
+  padding: 15px 18px 15px;
+  border: solid #1ac073 1px;
+  border-radius: 50%;
+}
+
+.individualLoginForm2 {
+  margin: 0px 30px 0px;
+  padding: 8px 12px 8px;
+  border: solid #1ac073 1px;
+  border-radius: 50%;
+}
+
+.text_labels_for_account {
+  cursor: pointer;
+}

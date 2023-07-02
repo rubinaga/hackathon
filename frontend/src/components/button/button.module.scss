@@ -1,0 +1,71 @@
+.button_text_women {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.button_text_men {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 130%;
+  /* or 23px */
+
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  background: linear-gradient(0deg, #ffffff, #ffffff);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+
+.button_orange {
+  cursor: pointer;
+
+  display: flex;
+  //   padding: 30px 60px;
+  width: 180px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+
+  /* 3 */
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.1),
+    6px 9px 40px rgba(138, 55, 55, 0.54);
+  border-radius: 30px;
+}
+
+.button_green {
+  cursor: pointer;
+  /* 2 */
+  display: flex;
+  //   padding: 30px 60px;
+  width: 180px;
+  height: 60px;
+
+  align-items: center;
+  justify-content: center;
+
+  background: linear-gradient(88.33deg, #b0ff8b -7.64%, #0e6200 145.94%);
+  box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.1),
+    6px 9px 40px rgba(55, 138, 63, 0.54);
+  border-radius: 30px;
+}

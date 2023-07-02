@@ -1,0 +1,25 @@
+.wrapper {
+  border: solid #000000 1px;
+  width: 40rem;
+  border-radius: 10px;
+  background-color: rgb(68, 60, 60);
+  cursor: pointer;
+}
+
+.chosenWrapper {
+  border: solid #000000 1px;
+  width: 40rem;
+  border-radius: 10px;
+  background-color: #1ac073;
+  cursor: pointer;
+}
+
+.completeWrapper {
+  padding: 1rem 0rem 0rem;
+}
+
+.text {
+  padding-left: 2rem;
+  color: white;
+  font-size: 18px;
+}

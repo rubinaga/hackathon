@@ -1,0 +1,30 @@
+.button_text_position {
+  //   height: 80px;
+  //   width: 250px;
+  color: white;
+  font-size: 28px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  padding: 10px 50px;
+}
+
+.button_green {
+  cursor: pointer;
+
+  /* 2 */
+  background: linear-gradient(88.33deg, #b0ff8b -7.64%, #0e6200 145.94%);
+  box-shadow: -6px -6px 16px rgba(255, 255, 255, 0.1),
+    6px 9px 40px rgba(55, 138, 63, 0.54);
+  border-radius: 30px;
+}
+
+.button_orange {
+  cursor: pointer;
+
+  /* 2 */
+  background: linear-gradient(88.33deg, #fba24f -7.64%, #ff1e1e 145.94%);
+  /* 1 */
+  backdrop-filter: blur(10px);
+  border-radius: 30px;
+}

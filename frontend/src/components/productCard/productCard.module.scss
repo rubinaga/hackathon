@@ -1,0 +1,114 @@
+.productCard {
+    width: 277px;
+    height: 337px;
+    flex: none;
+    order: 3;
+    flex-grow: 0;
+}
+
+.productCard_image {
+    width: 200px;
+    left: 0px;
+    top: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.productCard_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 24px;
+    gap: 10px;
+    width: 200px;
+    height: 87px;
+    background: #FFFFFF;
+    box-shadow: 0px 0px 1px rgba(187, 187, 187, 0.25);
+    border-radius: 0px 0px 10px 10px;
+}
+
+.productCard_info_frame {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    width: 200px;
+    height: 56px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard_info_name {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 10px;
+    width: 170px;
+    padding-top: 10px;
+    height: 30px;
+    flex: none;
+    text-align: center;
+    font-family: 'Gilroy-Medium';
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard_info_price {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 4px;
+    gap: 4px;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    flex: none;
+    font-family: 'Gilroy-Medium';
+    order: 1;
+    flex-grow: 0;
+}
+
+.productCard_info_details {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 98px;
+    width: 150px;
+    height: 20px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.productCard_info_ranking {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    width: 30px;
+    height: 50px;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+}
+
+.productCard_info_button {
+    display: flex;
+    margin-bottom: 25px;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 2px;
+    gap: 10px;
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    cursor: pointer;
+    border-radius: 5px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}

@@ -1,0 +1,101 @@
+.header {
+    width: 100vw;
+    height: 10vh;
+    left: 0px;
+    top: 0px;
+    background: #1AC073;
+    position: sticky;
+}
+
+.subHeader {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 302px;
+    position: absolute;
+    width: 1203px;
+    height: 24px;
+    left: 131px;
+    top: 26px;
+}
+
+.header_brand_name {
+    width: 118px;
+    height: 20px;
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    position: inh;
+    font-size: 30px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.header_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px;
+    width: 783px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.menu_texts {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 40px;
+    width: 412px;
+    height: 20px;
+    flex: none;
+    order: 0;
+    margin-left: 10vw;
+    flex-grow: 0;
+}
+
+.menu_icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+    width: 75px;
+    height: 24px;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-left: 29vw;
+}
+
+.menu_text {
+    width: 50px;
+    height: 20px;
+    font-family: 'SF Pro Text';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.012em;
+    color: #FFFFFF;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    cursor: pointer;
+}
+
+.menu_icon {
+    cursor: pointer;
+}

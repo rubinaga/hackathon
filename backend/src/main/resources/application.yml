@@ -1,0 +1,87 @@
+server:
+  port: 8443
+  forward-headers-strategy: framework
+  error:
+    include-stacktrace: never
+    include-message: never
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+  liquibase:
+    enabled: false
+    changeLog: classpath:/db/changelog/db.changelog-master.sql
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+        format_sql: 'true'
+        enable_lazy_load_no_trans: true
+        jdbc:
+          batch_size: 5
+          time_zone: UTC
+        metadata_builder_contributor: com.example.EcoHack.config.SqlFunctionsMetadataBuilderContributor
+    hibernate:
+      ddl-auto: create-drop # none, create, create-drop, validate, and update
+      enhancer:
+        enableLazyInitialization: true
+    show-sql: 'true'
+
+  datasource:
+    password: postgres
+    username: postgres
+#    url: jdbc:postgresql://144.172.70.195/db?reWriteBatchedInserts=true
+    url: jdbc:postgresql://database/db?reWriteBatchedInserts=true
+
+cors:
+  allowed-origins:
+    - 'http://localhost:80'
+    - 'http://localhost:3000'
+  allowed-methods: GET, POST, PATCH, PUT, DELETE, OPTIONS, HEAD
+  allowed-headers: "*"
+#  exposed-headers: "X-Get-Header"
+
+spring-doc:
+  swagger-ui:
+    disable-swagger-default-url: true
+    operations-sorter: method
+    path: /api-docs/swagger-ui.html
+    config-url: /api-docs/v3/swagger-config
+
+    urls-primary-name: All
+    urls[0]:
+      name: All
+      url: /api-docs/v3
+    urls[1]:
+      name: Public
+      url: /api-docs/v3/public
+    urls[2]:
+      name: Admin
+      url: /api-docs/v3/admin
+    urls[3]:
+      name: User
+      url: /api-docs/v3/user
+
+  api-docs:
+    path: /api-docs/v3
+    groups:
+      enabled=true:
+
+# TODO[prod] move to environment variables
+vapid:
+  public:
+    key: BKtLP-mlyJvlCXOnB562NEt8azJDEy8QXYYKhOg5NuQe7F0gUKAz4QOaPm5oQM-AYqA6V-ypi-u5q_-puQ1mghM
+  private:
+    key: acsh0knaXVkagNYrbKY-6pHiixmwRn65d4D0P7exlSE
+
+# TODO[prod] move to environment variables
+jwt:
+  access-token:
+    expires-in: 3600000 # millis // 1H
+  refresh-token:
+    expires-in: 7776000000 # millis
+  secret: bf=@VR**=9U34SsDmkvD_Z!QG6^LAv5pDAz94xJ#n5FH+stFFH772w@+urZ%VLFRkhAubMA#-heuV@gt=a^gY?bvbSA9+pKYNu@5w=7$7WLUzMz7dXv+^An&Q7d5V7wm6ysDj8QjG37mD5f3Q8q?N3+s23KR7Q9G+D@jgmv&QyS^7-QDBqUPTQW_kA!RN2^=-PXsFQK-6_9AvhV7_WX5kz7Le=mPWagLc$#D*-jTC@gPqFpUr4bLtH^jQuUFZdtM
+  issuer: WHAT2EAT.COM

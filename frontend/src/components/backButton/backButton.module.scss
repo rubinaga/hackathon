@@ -1,0 +1,20 @@
+.backButton {
+  // position: absolute;
+  // top: 85%;
+  //   left: 47.7%;
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 130%;
+  /* identical to box height, or 21px */
+  cursor: pointer;
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.02em;
+  background-color: transparent;
+  color: white;
+  border: 0;
+}
